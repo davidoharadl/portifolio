@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+    --main-bg-color: #000c3f;
+    --highlights-color: #2CD4D9;
+    --text-color: #9aa5c5;
+    --color-white: #FFF;
+    --main-text: 'Open Sans', sans-serif;
+    --logo-text: 'Kalam', cursive;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    font-family: var(--main-text);
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    font-family: var(--logo-text);
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+header h1::before {
+    content: "< ";
+    color: var(--highlights-color);
+}
+
+header h1::after {
+    content: " />";
+    color: var(--highlights-color);
+
+}
+
+header a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: var(--main-text);
+    transition: border-bottom 100ms ease-in-out;
+}
+
+header a:hover {
+    border-bottom: 0.15rem solid var(--highlights-color);
+}
