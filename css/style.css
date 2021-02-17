@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 :root {
-    --main-bg-color: #000c3f;
-    --highlights-color: #2CD4D9;
-    --text-color: #9aa5c5;
+    --main-bg-color: #2B2D42;
+    --highlights-color: #EF233C;
+    --text-color: #EDF2F4;
     --color-white: #FFF;
     --main-text: 'Open Sans', sans-serif;
     --logo-text: 'Kalam', cursive;
@@ -55,4 +55,59 @@ header a {
 
 header a:hover {
     border-bottom: 0.15rem solid var(--highlights-color);
+}
+
+section {
+    margin-top: 2rem;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text, .about-img {
+    width: 47%;
+}
+
+.about-text h2 {
+    color: var(--highlights-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.about-text h1 {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.about-text p {
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.about-text .btn {
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--highlights-color);
+    border: 1px solid var(--highlights-color);
+    padding: 0.6rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    
+}
+
+.about-text .btn:hover {
+    background-color: var(--highlights-color);
+    color: var(--main-text);
+    transition: all 150ms ease-in-out;
 }
