@@ -9,7 +9,6 @@ body {
     color: #d8dbe2;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-
 }
 
 header {
@@ -20,30 +19,3 @@ header {
     width: 1200px;
 }
 
-header h1 {
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 40px;
-}
-
-header h1::before {
-    content: '<';
-    color: #58A4B0;
-}
-
-header h1::after {
-    content: '/>';
-    color: #58A4B0;
-}
-
-nav a {
-    margin-right: 20px;
-    align-items: center;
-    color: #d8dbe2;
-    text-decoration: none;
-}
-
-nav a:hover {
-    /* text-decoration: underline; */
-    color: #58A4B0;
-    transition: 200ms linear;
-}

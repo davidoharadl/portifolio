@@ -1,0 +1,14 @@
+.logo {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 40px;
+}
+
+.logo::before {
+    content: '<';
+    color: #58A4B0;
+}
+
+.logo::after {
+    content: '/>';
+    color: #58A4B0;
+}

@@ -1,0 +1,12 @@
+.item-menu {
+    margin-right: 20px;
+    align-items: center;
+    color: #d8dbe2;
+    text-decoration: none;
+}
+
+.item-menu:hover {
+    /* text-decoration: underline; */
+    color: #58A4B0;
+    transition: 200ms linear;
+}
